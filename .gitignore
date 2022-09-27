@@ -9,3 +9,4 @@ target/
 .checkstyle
 .vscode/
 .factorypath
+.bsp
