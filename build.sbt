@@ -1,7 +1,8 @@
 ThisBuild / organization := "ch.vorburger.mariaDB4j"
-ThisBuild / version := "2.6.0-BL-LOCAL"
+ThisBuild / version := "2.6.0-BL"
 ThisBuild / scalaVersion := "2.13.9"
 ThisBuild / crossPaths := false
+ThisBuild / gitPublishDir := file("/src/maven-repo")
 
 lazy val core = (project in file("mariaDB4j-core"))
   .settings(
