@@ -1,6 +1,7 @@
 ThisBuild / organization := "ch.vorburger.mariaDB4j"
-ThisBuild / version := "2.6.0-BL"
+ThisBuild / version := "2.6.0-BL-LOCAL"
 ThisBuild / scalaVersion := "2.13.9"
+ThisBuild / crossPaths := false
 
 lazy val core = (project in file("mariaDB4j-core"))
   .settings(

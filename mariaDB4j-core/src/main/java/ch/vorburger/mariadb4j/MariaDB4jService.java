@@ -36,8 +36,6 @@ import javax.annotation.PreDestroy;
  *
  * <p>The main() could be used typically from an IDE (waits for CR to shutdown..).
  *
- * @see MariaDB4jSpringService
- *
  * @author Michael Vorburger
  */
 public class MariaDB4jService {
